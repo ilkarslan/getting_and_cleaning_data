@@ -12,7 +12,9 @@ train/y_train.txt with test/y_test.txt : creates a 10299 x 1 data frame with act
 
 Creates a 10299 x 66 data frame, because only 66 out of 561 attributes are measurements on the mean and standard deviation. All measurements appear to be floating point numbers in the range (-1, 1).
 
-* RUses descriptive activity names to name the activities in the data set walkingupstairs
+* Uses descriptive activity names to name the activities in the data set 
+
+walkingupstairs
 
 walkingdownstairs
 
