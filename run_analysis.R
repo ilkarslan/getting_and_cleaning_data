@@ -18,7 +18,7 @@ indices_of_good_features <- grep("-mean\\(\\)|-std\\(\\)", features[, 2])
 X <- X[, indices_of_good_features]
 names(X) <- features[indices_of_good_features, 2]
 names(X) <- gsub("\\(|\\)", "", names(X))
-names(X) <- tolower(names(X))  # see last slide of the lecture Editing Text Variables (week 4)
+names(X) <- tolower(names(X)) 
 
 # 3. Use descriptive activity names 
 
